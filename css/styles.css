@@ -1,0 +1,177 @@
+.pull-left{
+    float: left;
+}
+.clear {
+clear: both;
+}
+
+.input-container,.modal-container{
+    width: 100%;
+    display: inline-block;
+}
+
+.input-group{
+   /* width: 50%;*/
+   /* display: inline-block;*/
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-group p{
+    line-height: 0px;
+    margin-bottom: 14px;
+    text-align:center;
+}
+.modal-container label {     
+    color: #333;
+    height: 30px;
+    width: 30%;    
+    margin-left: 10px;      
+    margin-right:10px;
+   display:inline-block;
+    
+}
+.input-container label {     
+    color: #333;
+    height: 30px;
+    width: 30%;    
+    margin-left: 10px;  
+    clear: both;
+    float:left;
+    margin-right:10px;
+    margin-top: 10px;
+}
+.section-title {
+ font-weight:600;
+}
+input[type=text],input[type=number] 
+ {
+    height: 30px;
+    width: 55%;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    float: left;
+    outline: none;
+    border: none;
+    padding:0 5px;
+
+}
+.input-container span
+ {
+    height: 30px;
+    width: 55%;
+    border-radius: 4px;    
+    margin-top: 10px;
+    float: left;    
+    padding:0 5px;
+
+}
+select {  
+  height: 30px;
+  padding:0 5px;
+  float: left;
+    outline: none;
+    border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin-top: 10px !important;
+ margin-right:10px;
+  
+}
+
+
+.input-group:first{
+    margin-left: 0px;
+}
+
+.text-green{
+    color: green;
+}
+
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top:10px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 14px;
+    font-size: 18px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width:50%;
+}
+
+.btn-kpr{
+    background-color: #362c79;
+    color: white;
+}
+
+.btn-kpr:hover{
+    opacity: 0.9;
+}
+
+.kpr-installment{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #362c79;
+    text-decoration: bold;
+}
+.kdrt-container {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin:1px auto;
+    height:auto;
+}
+.kdrt-container h4 {
+ font-weight:600;
+}
+#nadaft-kpr-simulation-form{
+    /*max-width: 400px;*/
+    
+
+}
+
+.show-installment{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.show-installment p{
+    margin-bottom: 0px;
+}
+
+.show-installment h6{
+    margin-top: 0px;
+}
+
+.text-center{
+    text-align: center !important;
+
+}
+
+/* modal */
+.modal {
+    z-index: 1050 !important;
+}
+  /* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
